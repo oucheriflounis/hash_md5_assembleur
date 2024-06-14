@@ -31,7 +31,6 @@ calc_length:
 length_calculated:
     mov [input_length], rcx
 
-
     mov rdi, message
     mov rsi, input
     mov rcx, [input_length]
@@ -115,7 +114,6 @@ md5_compress:
     ; Sauvegarder les registres
     push rbx
     push rbp
-
 
     mov rbp, rdi
     mov r8, rsi
